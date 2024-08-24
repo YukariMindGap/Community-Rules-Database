@@ -1,5 +1,5 @@
 {
-    "timestamp": 1703171564,
+    "timestamp": 1724488520,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11263,6 +11263,22 @@
                 "vanillaexpanded.vtexe.facialanims": {
                     "comment": "This is according to Reel's steampage. Loading this after this mod causes the blinking animations to flicker.",
                     "name": "Vanilla Textures Expanded - [NL] Facial Animation"
+                }
+            }
+        },
+        "thek.guardingp": {
+            "loadBefore": {
+                "oskarpotocki.vfe.mechanoid": {
+                    "comment": "Fixes an error on mechanoid behavior when set to guard",
+                    "name": "Vanilla Factions Expanded - Mechanoids"
+                }
+            }
+        },
+        "vanillaexpanded.vcef": {
+            "loadBefore": {
+                "biomesteam.biomescaverns": {
+                    "comment": "Fixes incompatibilities",
+                    "name": "Biomes! Caverns"
                 }
             }
         }
