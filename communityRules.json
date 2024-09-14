@@ -1,5 +1,5 @@
 {
-    "timestamp": 1724488520,
+    "timestamp": 1726301346,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11279,6 +11279,14 @@
                 "biomesteam.biomescaverns": {
                     "comment": "Fixes incompatibilities",
                     "name": "Biomes! Caverns"
+                }
+            }
+        },
+        "vanillaexpanded.vgeneticse": {
+            "loadAfter": {
+                "vanillaexpanded.vmemese": {
+                    "comment": "Fixes incompatibility problem with pawns when starting game.",
+                    "name": "Vanilla Ideology Expanded - Memes and Structures"
                 }
             }
         }
