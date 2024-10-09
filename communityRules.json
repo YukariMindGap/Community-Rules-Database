@@ -1,5 +1,5 @@
 {
-    "timestamp": 1726301346,
+    "timestamp": 1728465517,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -10465,6 +10465,12 @@
                     "name": [
                         "Medical System Expansion 2"
                     ]
+                }
+            },
+            "loadAfter": {
+                "vat.epoeforked": {
+                    "comment": "Required",
+                    "name": "Expanded Prosthetics and Organ Engineering - Forked"
                 }
             }
         },
